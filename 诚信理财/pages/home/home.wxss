@@ -1,0 +1,18 @@
+/* pages/home/home.wxss */
+.header{
+  width: 750rpx; 
+  height: 90rpx; 
+  border: 1px solid red;
+}
+.hdCon{
+  display:flex;
+  justify-content: space-between;
+  align-items: content;
+  height: 100%;
+}
+.hdCon navigator{
+  height: 50rpx;
+}
+.hdCon image{
+  height: 100%;
+}

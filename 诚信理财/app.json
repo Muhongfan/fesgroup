@@ -1,0 +1,13 @@
+{
+  "pages": [
+		"pages/home/home"
+	],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6699CC",
+    "navigationBarTitleText": "诚信理财",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
