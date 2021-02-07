@@ -4,5 +4,22 @@
     <navigator open-type="switchTab" url="/pages/home/home" class="logo">
       <image mode = "heightFix" src = "/images/logo.png"></image>
     </navigator>
+
+
+
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <image class="pic" mode="heightFix" src = "/images/kefu.png"></image>
+    </view> 
+    
   </view>
+</view>
+
+
+<view class = "banner">
+  <swiper indicator-dots indicator-color = "rgba(255,255,255,0)" indicator-active-color="#fff" circular autoplay interval="40000">
+    <swiper-item><image src="/images/banner1.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner2.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner3.jpg"/></swiper-item>
+  </swiper>
 </view>
