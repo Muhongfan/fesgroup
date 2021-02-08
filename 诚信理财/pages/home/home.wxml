@@ -23,3 +23,88 @@
     <swiper-item><image src="/images/banner3.jpg"/></swiper-item>
   </swiper>
 </view>
+
+<scroll-view class="major" scroll-x>
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">投资</view>
+      </navigator>
+
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">税务</view>
+    </navigator>
+
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">保险</view>
+    </navigator>
+
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">理财</view>
+    </navigator>
+
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">贷款</view>
+    </navigator>
+
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">投资</view>
+    </navigator>
+
+    <navigator class ="box" url="">
+      <image class="pic" src="/images/kefu.png"></image>
+      <view class="txt">投资</view>
+    </navigator>
+
+</scroll-view>
+
+<view class="works">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">热门推荐</view>
+      <navigator class="more">更多></navigator>
+    </view>
+
+    <view class="wkMain">
+      <navigator class="box" wx:for="{{8}}">
+        <image class="pic" src="/images/course.png"></image>
+        <!-- <view class="ceng">
+          <view class="tit"></view> 
+          <view class="line"></view> 
+          <view class="des">XXX</view>
+
+        </view> -->
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="newWorks">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">新课推荐</view>
+      <navigator class="more">更多></navigator>
+    </view>
+
+    <view class="wkMain">
+      <navigator class="box" wx:for="{{8}}">
+        <image class="pic" src="/images/course.png"></image>
+        <!-- <view class="ceng">
+          <view class="tit"></view> 
+          <view class="line"></view> 
+          <view class="des">XXX</view>
+
+        </view> -->
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+  <view class="txt"> - 已经拉到底啦 - </view>
+</view>
+

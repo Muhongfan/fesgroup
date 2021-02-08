@@ -1,14 +1,21 @@
  
  {
   "pages": [
-		"pages/home/home"
+    "pages/home/home",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/field/field",
+    "pages/mystudy/mystudy"
+ 
 	],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#6699CC",
+    "navigationBarBackgroundColor": "#FFFFFF",
     "navigationBarTitleText": "诚信理财",
-    "navigationBarTextStyle":"white"
+    "navigationBarTextStyle":"black"
   },
+ 
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }
+
