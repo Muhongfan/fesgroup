@@ -1,2 +1,11 @@
 <!--pages/field/field.wxml-->
-<text>pages/field/field.wxml</text>
+
+
+
+<view class="filedcot">
+  <navigator class="nav" wx:for="{{8}}">
+    <text>投资</text>
+  </navigator>
+
+</view>
+

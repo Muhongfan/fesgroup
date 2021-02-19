@@ -1,3 +1,27 @@
+
 {
-  "usingComponents": {}
+    "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "领域",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home.png"
+    },{
+      "pagePath": "pages/field/field",
+      "text": "领域",
+      "iconPath": "images/field.png",
+      "selectedIconPath": "images/field.png"
+    },{
+      "pagePath": "pages/mystudy/mystudy",
+      "text": "我的学习",
+      "iconPath": "images/mystudy.png",
+      "selectedIconPath": "images/mystudy.png"
+    }]
+  }
 }

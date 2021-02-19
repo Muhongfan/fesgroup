@@ -1,1 +1,29 @@
 /* pages/field/field.wxss */
+
+
+
+.filedcot{
+  padding: 20rpx ;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  
+  width: 100%;
+  
+}
+.filedcot .nav{
+  width: 700rpx;
+  height: 100rpx;
+  margin-bottom:10rpx;
+ 
+  position: relative;
+  border: black 1px solid;
+  
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 15rpx;
+
+  
+}
+
+
