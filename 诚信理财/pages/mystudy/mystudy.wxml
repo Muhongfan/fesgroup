@@ -6,26 +6,31 @@
   </view>
   <view>
     <view class='other'>
-      <view class='share other-item'>
-        <button open-type='share' class='btn' hover-class='none'>
-          <text class='iconfont icon-fenxiang1'></text> 学习兴趣
-        </button>
-      </view>
-      <view class='customer other-item'>
-        <button open-type='contact' class='btn' hover-class='none'>
-          <text class='iconfont icon-lianxikefu'></text> 消息中心
-        </button>
-      </view>
       <view class='about other-item'>
         <navigator url='../../subPages/about-page/about-page' hover-class='none'>
-          <text class='iconfont icon-guanyuwomen'></text> 联系客服
+          <text class='iconfont icon-guanyuwomen'></text> 学习兴趣
         </navigator>
       </view>
+
+      <view class='share other-item'>
+        <button open-type='share' class='btn' hover-class='none'>
+          <text class='iconfont icon-fenxiang1'></text> 消息中心
+        </button>
+      </view>
+
+      
+
+      <view class='customer other-item'>
+        <button open-type='contact' class='btn' hover-class='none'>
+          <text class='iconfont icon-lianxikefu'></text> 联系客服
+        </button>
+      </view>
+      
     </view>
-    
+
     <view class='order'>
       <view class='title-box'>
-        <view class='title'>学习记录</view>
+        <view class='title'> 学习记录 </view>
         <view class='title-line'></view>
       </view>
       <view class='order-list'>
