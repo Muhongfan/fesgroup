@@ -4,12 +4,14 @@
     <open-data type="userAvatarUrl" class='avatar'></open-data>
     <open-data type="userNickName" class='name'></open-data>
   </view>
+
+
   <view>
     <view class='other'>
       <view class='about other-item'>
-        <navigator url='../../subPages/about-page/about-page' hover-class='none'>
+        <button  class='btn' url='' hover-class='none'>
           <text class='iconfont icon-guanyuwomen'></text> 学习兴趣
-        </navigator>
+        </button>
       </view>
 
       <view class='share other-item'>
@@ -18,11 +20,15 @@
         </button>
       </view>
 
-      
-
       <view class='customer other-item'>
         <button open-type='contact' class='btn' hover-class='none'>
           <text class='iconfont icon-lianxikefu'></text> 联系客服
+        </button>
+      </view>
+
+      <view class='customer other-item'>
+        <button open-type='contact' class='btn' hover-class='none'>
+          <text class='iconfont icon-lianxikefu'></text> 收藏记录
         </button>
       </view>
       
@@ -35,15 +41,45 @@
       </view>
       <view class='order-list'>
         <navigator class='order-item' url='../../subPages/movie-order/movie-order' hover-class='none'>
-          <image src='/assets/images/order_movie.png'></image>
+          <image src='/images/1.png'></image>
           <view>在学习</view>
         </navigator>
         <navigator class='order-item' url='../../subPages/snack-order/snack-order' hover-class='none'>
-          <image src='/assets/images/order_store.png'></image>
+          <image src='/images/1.png'></image>
           <view>已学习</view>
         </navigator>
       </view>
     </view>
+
+
+
+    <view class="collect">
+			<view class='most-expected' wx:if='{{}}'>
+				<view class='title'>近期最受期待</view>
+				<scroll-view class='scroll-view_H' scroll-x bindscrolltolower='lower'>
+					<navigator url='' wx:for='{{}}' wx:for-item='movie' wx:key='id' class='expected-item'>
+						<image src='' class='poster'></image>
+						<view class='name line-ellipsis'></view>
+						<view class='data line-ellipsis'>人想看</view>
+						<view class='data'></view>
+					</navigator>
+				</scroll-view>
+			</view>
+			<block wx:for='' wx:for-item='movie' wx:key='id'>
+				<block wx:if=''>
+					<view class='title'></view>
+					<template is='movieSection' data='' />
+				</block>
+				<template wx:else is='movieSection' data='' />
+			</block>
+			<view wx:if=''>
+				<template is="loadingMore" />
+			</view>
+	
+		</view>
+
+
+
 
 
 

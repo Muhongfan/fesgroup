@@ -6,16 +6,14 @@
   padding: 20rpx ;
   display: flex;
   flex-wrap: wrap;
-  margin: 2px;
   
   width: 100%;
   
 }
 .filedcot .nav{
-  width: 700rpx;
+  width: 100%;
   height: 100rpx;
   margin-bottom:10rpx;
- 
   position: relative;
   border: black 1px solid;
   
