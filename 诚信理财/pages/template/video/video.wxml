@@ -1,0 +1,9 @@
+<!--pages/template/video/video.wxml-->
+  <navigator class='movie-section' >
+    <image class='movie-img' src='/images/1.png'></image>
+    <view class='movie-info'>
+      <view class='movie-name line-ellipsis'>名字</view>
+      <view class='content' >2.1上映</view>
+    </view>
+  
+  </navigator>

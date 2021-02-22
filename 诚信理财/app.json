@@ -6,7 +6,10 @@
     "pages/logs/logs",
     "pages/field/field",
     "pages/mystudy/mystudy",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/sub/category/category",
+    "pages/template/select/select",
+    "pages/template/video/video"
  
   ],
   "window":{

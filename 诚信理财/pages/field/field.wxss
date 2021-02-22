@@ -3,7 +3,6 @@
 
 
 .filedcot{
-  padding: 20rpx ;
   display: flex;
   flex-wrap: wrap;
   

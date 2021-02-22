@@ -1,0 +1,54 @@
+/* pages/template/video/video.wxss */
+.movie-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 228rpx;
+  padding: 0 30rpx;
+}
+.movie-section::after{
+  position: absolute;
+  content: '';
+  height: 0;
+  width: calc(100% - 208rpx);
+  right:30rpx;
+  bottom:0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.movie-info {
+  width: 680rpx;
+  height: 180rpx;
+  margin-right:20rpx;
+  margin-left: 30rpx;
+  font-size: 26rpx;
+  color: #666;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+
+.movie-img {
+  width: 240rpx;
+  height: 170rpx;
+}
+
+.movie-name {
+  
+  font-size: 28rpx;
+  color: #333;
+  padding-right: 10rpx;
+  padding-top: 10rpx;
+  position: relative;
+
+
+}
+.content{
+  margin-bottom: 10rpx;
+}
+
+

@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/template/video/video.js
 Page({
 
   /**
@@ -62,15 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  /**
-   * 图片点击跳转
-   */
-   
-  onmoney: function(opotions){
-    wx.navigateTo({
-      url: '/pages/sub/category/category'
-    })
-  },
+  }
 })

@@ -1,11 +1,8 @@
 
 {
-    "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#FFFFFF",
-    "navigationBarTitleText": "领域",
-    "navigationBarTextStyle":"black"
-  },
+    
+  "navigationBarTitleText": "领域",
+  
   "tabBar": {
     "list": [{
       "pagePath": "pages/home/home",

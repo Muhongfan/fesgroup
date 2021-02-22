@@ -50,23 +50,29 @@
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
+    "plugin": {
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "list": [
+        {
+          "name": "pages/sub/category/category",
+          "pathName": "pages/sub/category/category",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/template/video/video",
+          "pathName": "pages/template/video/video",
+          "scene": null
+        }
+      ]
     }
   }
 }

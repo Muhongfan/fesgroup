@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "select": "/pages/template/select/select"
+  }
+}

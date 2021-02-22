@@ -4,8 +4,6 @@
     <input placeholder="请输入搜索"></input>
     <icon type="search"></icon>
 
-
-
     <view class="kefu">
       <button class="btn" open-type="contact"></button>
       <image class="pic" mode="heightFix" src = "/images/kefu.png"></image>
@@ -25,7 +23,7 @@
 
 <scroll-view class="major" scroll-x>
     <navigator class ="box" url="">
-      <image class="pic" src="/images/kefu.png"></image>
+      <image bindtap='onmoney' class="pic" src="/images/kefu.png"></image>
       <view class="txt">投资</view>
       </navigator>
 

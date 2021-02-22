@@ -1,11 +1,33 @@
-// pages/home/home.js
+// pages/sub/category/category.js
 Page({
 
   /**
    * Page initial data
    */
   data: {
-
+    options: [{
+      city_id: '001',
+      city_name: '最新视频'
+    }, {
+      city_id: '002',
+      city_name: '热门视频'
+    }
+  ],
+    selected: {}
+  },
+  change (e) {
+    this.setData({
+      selected: { ...e.detail }
+    })
+    wx.showToast({
+      title: `${this.data.selected.id} - ${this.data.selected.name}`,
+      icon: 'success',
+      duration: 1000
+    })
+  },
+  close () {
+    // 关闭select
+    this.selectComponent('#select').close()
   },
 
   /**
@@ -63,14 +85,14 @@ Page({
   onShareAppMessage: function () {
 
   },
-
   /**
    * 图片点击跳转
    */
    
-  onmoney: function(opotions){
+  onclick: function(opotions){
     wx.navigateTo({
       url: '/pages/sub/category/category'
     })
   },
+  
 })
