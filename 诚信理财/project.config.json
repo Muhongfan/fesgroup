@@ -74,8 +74,8 @@
           "scene": null
         },
         {
-          "name": "pages/search/search",
-          "pathName": "pages/home/home",
+          "name": "pages/sub/play/play",
+          "pathName": "pages/sub/play/play",
           "query": "",
           "scene": null
         }

@@ -1,4 +1,4 @@
-// pages/search/search.js
+// pages/sub/select/select.js
 Page({
 
   /**

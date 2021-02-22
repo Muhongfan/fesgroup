@@ -1,5 +1,5 @@
 /* pages/sub/category/category.wxss */
-@import "/pages/template/video/video.wxss";
+@import "/pages/template/video/videoSection.wxss";
 .header{
   width: 750rpx; 
   height: 85rpx; 
@@ -49,9 +49,6 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
-
-
 }
 .contain .content .btn{
   width: fit-content;

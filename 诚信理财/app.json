@@ -6,7 +6,9 @@
     "pages/logs/logs",
     "pages/field/field",
     "pages/mystudy/mystudy",
-    "pages/search/search",
+    "pages/sub/search/search",
+    "pages/sub/select/select",
+    "pages/sub/play/play",
 
     "pages/template/select/select"
  
