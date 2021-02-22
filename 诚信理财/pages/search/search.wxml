@@ -1,2 +1,7 @@
 <!--pages/search/search.wxml-->
-<text>pages/search/search.wxml</text>
+<view class="header">
+  <view class="hdCon">
+    <icon type="search"></icon>
+    <input style=" margin-left:10rpx;" placeholder="请输入搜索"></input>
+  </view>
+</view>

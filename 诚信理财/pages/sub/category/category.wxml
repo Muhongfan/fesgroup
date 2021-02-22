@@ -4,7 +4,7 @@
 <view class="header">
   <view class="hdCon">
     <icon type="search"></icon>
-    <input style="margin-left:10rpx;" placeholder="请输入搜索"></input>
+    <input style=" margin-left:10rpx;" placeholder="请输入搜索"></input>
   </view>
 </view>
 
@@ -30,7 +30,7 @@
   </view>
 
   <view class="video">
-    <template is='videoSection' wx:for='8'   />
+    <template is='videoSection' wx:for='8' wx:for-item='movie' wx:key='id'  />
   </view>
   
   

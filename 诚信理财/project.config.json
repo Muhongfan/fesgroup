@@ -70,6 +70,13 @@
         {
           "name": "pages/template/video/video",
           "pathName": "pages/template/video/video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/home/home",
+          "query": "",
           "scene": null
         }
       ]

@@ -1,1 +1,11 @@
 /* pages/search/search.wxss */
+.header{
+  width: 750rpx; 
+  height: 85rpx; 
+}
+.hdCon{
+  display:flex;
+  height: 100%;
+  padding: 0 10rpx 0 10rpx;
+  margin-left:10px ;
+}
