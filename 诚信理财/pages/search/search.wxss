@@ -2,10 +2,39 @@
 .header{
   width: 750rpx; 
   height: 85rpx; 
+ 
 }
 .hdCon{
   display:flex;
+  justify-content: space-between;
   height: 100%;
-  padding: 0 10rpx 0 10rpx;
   margin-left:10px ;
+  
+}
+.hdCon kefu{
+  height: 100rpx;
+}
+.hdCon navigator{
+  height: 50rpx;
+}
+.hdCon image{
+  height: 110%;
+  
+}
+.kefu{
+  position: relative;
+}
+.kefu .btn{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  
+}
+.kefu .pic{
+  height: 84%;
+  animation: dh 1s infinite ;
+  
 }

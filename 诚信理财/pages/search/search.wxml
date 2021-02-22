@@ -1,7 +1,13 @@
 <!--pages/search/search.wxml-->
-<view class="header">
-  <view class="hdCon">
+<view class = "header">
+  <view class="container hdCon">
+    <input placeholder="请输入搜索"></input>
     <icon type="search"></icon>
-    <input style=" margin-left:10rpx;" placeholder="请输入搜索"></input>
+
+    <view class="kefu">
+      <button class="btn" open-type="contact"></button>
+      <text>取消</text>
+    </view> 
+    
   </view>
 </view>
