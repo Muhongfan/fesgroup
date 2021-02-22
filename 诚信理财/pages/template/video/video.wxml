@@ -1,4 +1,6 @@
 <!--pages/template/video/video.wxml-->
+<template name="videoSection">
+  
   <navigator class='movie-section' >
     <image class='movie-img' src='/images/1.png'></image>
     <view class='movie-info'>
@@ -7,3 +9,4 @@
     </view>
   
   </navigator>
+</template>

@@ -1,8 +1,10 @@
 <!--pages/sub/category/category.wxml-->
+<import src="/pages/template/video/video.wxml"/>
+
 <view class="header">
   <view class="hdCon">
-    <input placeholder="请输入搜索"></input>
     <icon type="search"></icon>
+    <input style="margin-left:10rpx;" placeholder="请输入搜索"></input>
   </view>
 </view>
 
@@ -19,14 +21,16 @@
       <button bindtap='onmoney' class="btn">个人税务</button>
     </navigator>
   </view>
-  <view class="title" bindtap="close">
 
+  <view class="title" bindtap="close">
       <view>视频</view>
       <view class="seleop">
         <select id="select" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
       </view>
+  </view>
 
-    
+  <view class="video">
+    <template is='videoSection' wx:for='8'   />
   </view>
   
   

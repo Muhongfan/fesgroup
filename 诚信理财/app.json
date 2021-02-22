@@ -8,8 +8,7 @@
     "pages/mystudy/mystudy",
     "pages/search/search",
     "pages/sub/category/category",
-    "pages/template/select/select",
-    "pages/template/video/video"
+    "pages/template/select/select"
  
   ],
   "window":{

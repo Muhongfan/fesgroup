@@ -1,11 +1,11 @@
 /* pages/sub/category/category.wxss */
+@import "/pages/template/video/video.wxss";
 .header{
   width: 750rpx; 
   height: 85rpx; 
 }
 .hdCon{
   display:flex;
-  justify-content: space-between;
   height: 100%;
   padding: 0 10rpx 0 10rpx;
   margin-left:10px ;
@@ -26,7 +26,7 @@
   position: relative;
   width: 100px;
   font-size: 25rpx;
-  margin-left: 20rpx;
+  margin-right: 45rpx;
 
 }
 
@@ -34,12 +34,14 @@
 
 
 .contain .title{
+  width: 100%;
   margin:20rpx 0 10rpx 0 ;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   
 }
 .contain .content{
@@ -48,6 +50,8 @@
   flex-wrap: wrap;
   flex-direction: row;
 
+
+
 }
 .contain .content .btn{
   width: fit-content;
@@ -55,4 +59,8 @@
   border:1px black solid;
   margin-right: 10rpx;
   margin-bottom: 10rpx;
+}
+
+.video{
+  padding: 20rpx 0 20rpx 20rpx;
 }
