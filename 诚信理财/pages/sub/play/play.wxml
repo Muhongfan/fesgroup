@@ -5,11 +5,31 @@
     play-btn-position="{{center}}" object-fit="{{objectfit}}"></video>
 </view>
 
-<view class="mv_name">{{mv.name}}</view>
-<view class="mv_time"> 发行:  {{mv.publishTime}}</view>
-<view class="mv_time mv_times">播放次数:  {{mv.playCount}}</view>
-<view class="mv_time mv_desc">{{mv.desc}}</view>
-<view class="mv_time mv_desc mv_other">点赞: {{mv.likeCount}}</view>
-<view class="mv_time mv_desc mv_other">收藏: {{mv.subCount}}</view>
-<view class="mv_time mv_desc mv_other">评论: {{mv.commentCount}}</view>
-<view class="mv_time mv_desc mv_other">分享: {{mv.shareCount}}</view>
+<view class="mv_name">名字{{mv.name}}</view>
+<view class="mv_time mv_desc mv_other"> 介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍介绍</view>
+<view class="mv_time mv_desc mv_other">适合人群: </view>
+<view class="mv_time mv_desc mv_other">xxxxxxxxxxx </view>
+
+<view>
+  <view class="swiper-tab">
+    <view class="bre swiper-tab-list {{tab==0 ? 'on' : ''}}" data-current="0" bindtap="tab_click">目录</view>
+    <view class="swiper-tab-list {{tab==1 ? 'on' : ''}}" data-current="1" bindtap="tab_click">评价</view>
+  </view>
+  <swiper current="{{tab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="tab_slide">
+    <swiper-item>
+      <view class="tabcontent">
+        <view class="header">人寿保险</view>
+        <view class="list"> 
+          <navigator class="list-item" wx:for="{{8}}">1.保险种类介绍</navigator>
+        </view>
+
+
+      </view>
+
+    </swiper-item>
+ 
+    <swiper-item>
+      产品参数
+    </swiper-item>
+  </swiper>
+</view>

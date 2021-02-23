@@ -29,3 +29,61 @@
 .mv_other{
   display: block;
 }
+
+
+.swiper-tab{  
+  width: 100%;  
+  height: fit-content;
+  border-bottom: 2rpx solid #eee;  
+  text-align: center;  
+  line-height: 80rpx;
+  background: #fff;
+  font-size: 14px;
+}  
+.on{ 
+color: darkgray;  
+border-bottom: 5rpx solid darkgray;
+}  
+.swiper-tab-list{  
+font-size: 29rpx;  
+  display: inline-block;  
+  width: 49.5%;  
+  color:darkgray; 
+}
+
+.tabcontent{
+  width: 100%;
+  height: fit-content;
+  border: red solid 1px;
+}
+.header{
+  display: flex;
+
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  width: 100%;
+  height: 80rpx;
+  align-items: center;
+
+  border: 1px solid red;
+  background:transparent;
+}
+.list{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  border: blue solid 1px;
+
+}
+.list-item{
+  padding-left: 20rpx;
+  align-items: center;
+  font-size: 22rpx;
+  width: 100%;
+  height: 50rpx;
+  border: black solid 1px;
+
+
+}
