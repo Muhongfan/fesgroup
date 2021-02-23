@@ -10,7 +10,7 @@
 <view class="mv_time mv_desc mv_other">适合人群: </view>
 <view class="mv_time mv_desc mv_other">xxxxxxxxxxx </view>
 
-<view>
+<view class="swiper-content"> 
   <view class="swiper-tab">
     <view class="bre swiper-tab-list {{tab==0 ? 'on' : ''}}" data-current="0" bindtap="tab_click">目录</view>
     <view class="swiper-tab-list {{tab==1 ? 'on' : ''}}" data-current="1" bindtap="tab_click">评价</view>
@@ -20,7 +20,7 @@
       <view class="tabcontent">
         <view class="header">人寿保险</view>
         <view class="list"> 
-          <navigator class="list-item" wx:for="{{8}}">1.保险种类介绍</navigator>
+          <navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator><navigator class="list-item" >1.保险种类介绍</navigator>
         </view>
 
 
@@ -33,3 +33,14 @@
     </swiper-item>
   </swiper>
 </view>
+
+
+<view class="header" style="margin-top:10rpx">相关推荐</view>
+<scroll-view class="major" scroll-x>
+  
+    <navigator class ="box" url="" wx:for="{{8}}">
+      <image bindtap='onmoney' class="pic" src="/images/1.png"></image>
+      <view class="txt"></view>
+      </navigator>
+
+</scroll-view>
